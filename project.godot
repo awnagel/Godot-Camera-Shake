@@ -12,12 +12,12 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "ShakeCamera",
 "language": "GDScript",
-"path": "res://camera_scripts/shake_camera.gd"
+"path": "res://addons/camera_shake/camera_scripts/shake_camera.gd"
 }, {
 "base": "Reference",
 "class": "ShakeCamera2D",
 "language": "GDScript",
-"path": "res://camera_scripts/shake_camera_2D.gd"
+"path": "res://addons/camera_shake/camera_scripts/shake_camera_2D.gd"
 } ]
 _global_script_class_icons={
 "ShakeCamera": "",
@@ -26,9 +26,5 @@ _global_script_class_icons={
 
 [application]
 
-config/name="CameraShake"
+config/name="Camera Shake"
 config/icon="res://icon.png"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
